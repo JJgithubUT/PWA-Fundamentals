@@ -1,0 +1,42 @@
+{
+    "id": "guitars:_app_pwa",
+    "name": "Guitars",
+    "short_name": "G-App",
+    "start_url": "/",
+    "scope": "/",
+    "description": "Carrito de Guitarras JS",
+    "display_override": [
+        "window-controls-overlay",
+        "standalone"
+    ],
+    "display": "fullscreen",
+    "theme_color": "darkviolet",
+    "icons": [
+        {
+            "src": "/icons/icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any"
+        }
+    ],
+    "shortcuts": [
+        {
+            "name": "Guitarras",
+            "url": "/",
+            "icons": [
+                {
+                    "src": "/icons/icon-512.png",
+                    "sizes": "512x512",
+                    "type": "image/png"
+                }
+            ]
+        }
+    ],
+    "screenshots": [
+        {
+            "src": "/screenshots/screenshot-1.png",
+            "sizes": "640x480",
+            "type": "image/png"
+        }
+    ]
+}

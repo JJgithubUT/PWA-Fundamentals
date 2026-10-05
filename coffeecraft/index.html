@@ -1,0 +1,37 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CoffeeCraft Roasters</title>
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+  <header class="app-header">
+    <div class="logo-group">
+      <img src="assets/icons/coffee-bean.svg" alt="" class="logo-icon">
+      <h1>CoffeeCraft</h1>
+    </div>
+    <button id="cart-btn" class="icon-button" aria-label="View Cart">
+      <img src="assets/icons/cart.svg" alt="">
+      <span id="cart-count" class="badge">0</span>
+    </button>
+  </header>
+
+  <main id="app-root">
+    <section class="hero-banner">
+      <h2>Handcrafted Daily Roasts</h2>
+      <p>Ethically sourced beans delivered straight to your door.</p>
+    </section>
+    
+    <section class="catalog-section">
+      <div id="catalog-grid" class="grid-container">
+        <!-- Rendered dynamically by js/app.js -->
+      </div>
+    </section>
+  </main>
+
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>
